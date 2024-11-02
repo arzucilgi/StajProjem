@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/newMassage/style/css/message.css">
+    <link rel="stylesheet" href="/newMassage/style/css/message-area.css">
+    <link rel="stylesheet" href="/newMassage/style/css/navbar.css">
+    <link rel="stylesheet" href="/newMassage/style/css/find-message.css">
+    <link rel="stylesheet" href="/newMassage/style/css/person-info.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+   
+
+
+</head>
+
+<body>
+    <div class="body">
+
+        <div class="massage-box">
+            <div class="profile-box">
+                <div class="profile-photos">
+                    <img src="/newMassage/photos/pp.jpg" alt="">
+                </div>
+                <nav class="profile-box-right">
+                    <div class="icons"> <i class="fa-solid fa-angle-left"></i></div>
+                    <div class="icons"><i class="fa-regular fa-comment"></i></div>
+                    <div class="icons"><i class="fa-solid fa-ellipsis-vertical">
+                            <nav class="navbar">
+                                <div class="navbar-list">Yeni Grup</div>
+                                <div class="navbar-list">Ayarlar</div>
+                                <div class="navbar-list">Çıkış Yap</div>
+                            </nav>
+                        </i>
+                    </div>
+
+                </nav>
+            </div>
+            <div class="filter-box">
+                <input type="text" name="" id="" placeholder="Ara">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <!-- <div class="massage-content">
+                <div class="message-profile">
+                    <img src="/newMassage/photos/pp.jpg" alt="">
+                </div>
+                <div class="message-data">
+                    <p> Arzuuu</p>
+                </div>
+            </div> -->
+
+        </div>
+        <div class="users-box">
+            <div class="go-back-message-box">
+                <div class="icons"> <i class="fa-solid fa-angle-left"></i></div>
+                <p>Yeni Sohbet</p>
+            </div>
+            <div class="filter-box">
+                <input type="text" name="" id="" placeholder="Ara">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="users-box-div">
+                <!-- <div class="massage-content">
+                    <div class="message-profile">  <img src="" alt="">  </div>
+                    <div class="message-data">  </div>
+                </div> -->
+            </div>
+            <!-- <div class="new-user"> -->
+                <div class="add-new-user">
+                    <i class="fa-solid fa-user-plus"></i>
+                </div>
+            <!-- </div> -->
+        </div>
+
+        <div class="message-area-home">
+            <img src="/newMassage/photos/sticker.jpg" alt="">
+            <p>Bir sohbet başlatın</p>
+
+        </div>
+        <div class="add-user-div">
+            <div class="message-area-add-user">
+                <div class="close"><i class="fa-solid fa-xmark"></i></div>
+                <div class="user-information"><input type="text" placeholder="Ad Soyad" id="isim"></div>
+                <div class="user-information"><input type="text" placeholder="Sıfat" id="soyad"></div>
+                <button class="register-button">Kayıt Et</button>
+            </div>
+        </div>
+
+
+
+        <div class="massage-area">
+            <div class="find-message-page">
+                <div class="go-back-div">
+                    <div class="go-back-icon">
+                        <i class="fa-solid fa-xmark"></i>
+                    </div>
+                    <p>Mesajlarda Ara</p>
+                </div>
+                <div class="filter-div">
+                    <input type="text" placeholder="Ara">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <div class="filtered-messages-div">
+
+                </div>
+            </div>
+            <div class="user">
+                <div class="user-profile">
+                    <!-- <img src="/newMassage/photos/pp.jpg" alt="">
+                    <p></p> -->
+                </div>
+                <div class="user-profile-icons">
+                    <div class="find-message-div">
+                        <i class="fa-solid fa-magnifying-glass"> </i>
+                    </div>
+                    <div class="user-profile-icons-div">
+                        <i class="fa-solid fa-ellipsis-vertical">
+                            <nav class="navbar-2">
+                                <div class="navbar-list-2">Kişi Bilgisi</div>
+                                <div class="navbar-list-2">Sohbeti Kapat</div>
+                                <div class="navbar-list-2">Sohbeti Sil</div>
+                            </nav>
+                        </i>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="send-message">
+                <div class="left-icon">
+                    <!-- <emoji-picker></emoji-picker>  -->
+                    <i class="fa-regular fa-face-grin-hearts"></i>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+
+                <div class="write-massage">
+                    <div name="" id="textarea" contenteditable="true" spellcheck="true" data-lexical-editor="true">
+                    </div>
+                </div>
+                <button id="paper-plane"><i class="fa fa-paper-plane"></i></button>
+            </div>
+            <div class="new-massage-area">
+            
+                <!-- <div class="new-massage"></div> -->
+                <!-- <p class="filter-explain"></p> -->
+            </div>
+
+        </div>
+        <div class="person-information">
+            <div class="close-button">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+            <div class="pp-div">
+                <div class="profile-pp">
+                    <a href=""></a>
+                </div>
+                <div class="pp-name-surname"></div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="/newMassage/style/js/scroll.js"></script>
+    <script src="/newMassage/style/js/navbar.js"></script>
+    <script src="/newMassage/style/js/users.js"></script>
+    <script src="/newMassage/style/js/findmessage.js"></script>
+    <script src="/newMassage/style/js/person-info.js"></script>
+
+</body>
+
+</html>

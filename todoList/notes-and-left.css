@@ -1,0 +1,86 @@
+.notes-container{
+    /* display: none; */
+    width: 85%;
+    height: 80%;
+    backdrop-filter: blur(5px);
+    max-height: 500px;
+    overflow: auto;
+    display: flex;
+    justify-content:space-around;
+   flex-wrap: wrap;
+
+}
+/* ANASAYFAYA GİTME  */
+/* .top{
+    width: 100%;
+    height: 60px;
+    background-color:#c79f9f;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom:1px solid #4d2a2a;
+} */
+.back-home{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+.back-home:hover{
+    background-color:rgb(248, 248, 244);
+    border-radius: 40px;
+    cursor: pointer;
+}
+.back-home i{
+    color:#4d2a2a;
+}
+.notes{
+    margin-bottom: 15px;
+    width:200px;
+    height: 250px;
+    max-height: 250px;
+    max-width: 200px;
+    background-color:rgb(248, 248, 244);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.notes i{
+  color: rgb(209, 209, 209);
+  font-size: 50px;
+}
+.notes i:hover{
+    cursor: pointer;
+}
+#remove-note{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    color: #c79f9f;
+}
+#remove-note:hover{
+    border-radius: 40px;
+    background-color: #a17c7c;
+    cursor: pointer;
+}
+.note-content{
+    width:80%;
+    height: 90%;
+    border: none;
+    resize:none;
+    outline: none;
+    background: none;
+    color: #4d2a2a;
+    text-transform: uppercase;
+    text-decoration:none;
+}

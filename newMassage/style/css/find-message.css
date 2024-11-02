@@ -1,0 +1,94 @@
+.find-message-page {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height:100%;
+    background: transparen;
+    background-color: rgb(245, 245, 245);
+}
+
+.go-back-div {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(216, 212, 212);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid whitesmoke;
+}
+
+.go-back-div i {
+    font-size: xx-large;
+    color: rgb(107, 109, 107);
+    padding: 15px;
+}
+
+.go-back-div p {
+    color: rgb(58, 53, 53);
+}
+
+.go-back-icon {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 8px;
+}
+.go-back-icon:hover{
+    border-radius: 40px;
+    background-color:rgb(245, 245, 245) ;
+    cursor: pointer;
+}
+
+.filter-div {
+    width: 100%;
+    height: 40px;
+    background-color: rgb(245, 245, 245);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.filter-div input {
+    width: 90%;
+    height: 30px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    padding: 0 10px 0 60px;
+    cursor: pointer;
+    background-color: rgb(216, 212, 212);
+    font-size: large;
+    color: rgb(43, 41, 41);
+}
+
+.filter-div i {
+    position: absolute;
+    left: 40px;
+    color: rgb(107, 109, 107);
+}
+
+.filtered-messages-div {
+    width: 100%;
+    /* height: 100%; */
+    /* width: auto;  */
+    max-height: 510px;
+    overflow: auto;
+    /* max-width: 1000px; */
+    /* height: auto; */
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    background-color: rgb(245, 245, 245);
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.filter-explain {
+    color: rgb(107, 109, 107);
+    font-size: larger;
+    margin: 15%;
+}

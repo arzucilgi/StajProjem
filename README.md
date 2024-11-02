@@ -1,3 +1,0 @@
-# StajProje
-# StajProjem
-# StajProject

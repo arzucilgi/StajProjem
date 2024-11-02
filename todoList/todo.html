@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/todoList/todo.css">
+    <link rel="stylesheet" href="/todoList/notes-and-left.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/fullcalendar@5.11.3/main.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@5.11.3/main.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+              <div class="top">
+                  <div class="back-home"><i class="fa-solid fa-angle-left"></i></div>
+              </div>
+        </div>
+        <div class="center">
+            <div class="todos-container">
+                <div class="row">
+                      <h2 class="head"> TODO LIST PAGE</h2>
+                </div>
+                <div class="row1">
+                    <form action="" class="form1">
+                        <input id="input" type="text" placeholder="Add Todo" >
+                        <button type="submit" name="" class="button1">Add Todo</button>
+                    </form>  
+                </div>
+                <div>
+                    <h3 class="head1"> Todo List</h3>
+                </div>
+                <div class="row2">
+                    <form action="" class="form2">
+                        <input type="text" name="" id="select" placeholder="Search Todo List">
+                        <hr style="margin-left:40px; margin-right: 57px;margin-top: 20px;">
+                        <button type="submit" class="button1">Clear All Todos</button>
+                    </form>
+                    <ul id="todoList">
+                         
+                    </ul>
+                </div>
+            </div>
+            <div class="notes-container">
+                     <div class="notes"><i class="fa-solid fa-circle-plus"></i> </div>
+            </div>
+
+        </div>
+        <div class="right">
+            <div id="calendar"> </div>
+            <div class="options"> 
+                <div class="option">Todos</div>
+                <div class="option">Notes</div>
+            </div>
+        </div>
+    
+    </div>
+   
+    <script src="/todoList/todo.js"></script>
+    <script src="/todoList/notes.js"></script>
+</body>
+</html>

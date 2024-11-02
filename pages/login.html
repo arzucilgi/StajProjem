@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="/public/css/index.css">
+    <link rel="stylesheet" href="/public/css/sigin.css">
+</head>
+
+<body>
+    <div class="section">
+        <div class="container">
+            <div class="form1">
+                <form id="form">
+                    <h2>Register Form</h2>
+                    <div class="form-group">
+                        <input type="text" id="name1" required>
+                        <label for="name">Name</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="surname1" required>
+                        <label for="surname">Surname</label>
+    
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="mail1" required>
+                        <label for="mail">E-Mail</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="password" id="password1" required>
+                        <label for="password">Password</label>
+                    </div>
+    
+                    <div class="form-actions">
+                        <input type="submit" value="Submit" id="submit">
+                        <input type="reset" value="Reset">
+                    </div>
+                </form>
+            </div>
+            <div class="change-page">
+                <div class="change-button">
+                  <button id="change-login">Log In</button>
+                  <button id="change-signin">Sign In</button>
+                </div>
+            </div>
+    
+            <div class="login-box">
+                <form action="">
+                    <h2>Log In</h2>
+                    <div class="input-box">
+                        <span class="icon"><i class="fa-solid fa-envelope"></i></span>
+                        <input type="email" name="" id="email2" required>
+                        <label for="">E-mail</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><i class="fa-solid fa-lock"></i></span>
+                        <input type="password" name="" id="password2" required>
+                        <label for="">Password</label>
+                    </div>
+    
+                    <!-- <div class="remember-forgot">
+                            <label for=""><input type="checkbox">Remember Me</label>
+                            <a href="">Forgot password?</a>
+                        </div> -->
+                    <button type="submit" id="button2">Login</button>
+                    <div class="register-link">
+                        <p>Don't have a account? <a href="">Register</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    
+    </div>
+   
+    <script src="/public/js/login.js"></script>
+    <script src="/public/js/signin.js"></script>
+</body>
+
+</html>

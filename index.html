@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="public/css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="/public/css/index.css">
+    <link rel="stylesheet" href="/public/css/login.css">
+    <link rel="stylesheet" href="/public/css/sigin.css">
+    <link rel="stylesheet" href="/public/css/chooseTheme.css">
+
+</head>
+
+<body>
+    <div class="home-page">
+        <div id="tapbar">
+            <div class="tapbar-left">
+                <!-- <a href=""> <i class="fa-solid fa-house"></i></a>
+                <a href="http://127.0.0.1:5501/pages/sigin.html" id="signin">Sign In</a> -->
+                <!-- <a href="http://127.0.0.1:5501/pages/login.html" id="login"><i
+                        class="fa-solid fa-right-to-bracket"></i></a> -->
+                <!-- <a href="" class="navbar-icons"><i class="fa-solid fa-users"></i></a> -->
+                <a href="" class="navbar-icons"><i class="fa-solid fa-comments"></i></a>
+                <a href="" class="navbar-icons"><i class="fa-solid fa-image"></i></a>
+                <a href="" class="navbar-icons"><i class="fa-solid fa-clipboard-list"></i></a>
+            </div>
+            <div class="tapbar-end">
+                <div class="profile-list">
+                    <a href="" id="logout" <i class="fa-solid fa-power-off"></i></a>
+                </div>
+                <div class="profile-photos">
+                    <a href="" id="profile"></a>
+                    <!-- <i class="fa-solid fa-user"></i> -->
+                </div>
+            </div>
+        </div>
+        <div class="home-page-2">
+            <div class="section">
+                <div class="container">
+                    <div class="form1">
+                        <form id="form">
+                            <h2>Register Form</h2>
+                            <div class="form-group">
+                                <input type="text" id="name1" required>
+                                <label for="name">Name</label>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" id="surname1" required>
+                                <label for="surname">Surname</label>
+
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="mail1" required>
+                                <label for="mail">E-Mail</label>
+                            </div>
+                            <div class="form-group">
+                                <input type="password" id="password1" required>
+                                <label for="password">Password</label>
+                            </div>
+
+                            <div class="form-actions">
+                                <input type="submit" value="Submit" id="submit">
+                                <input type="reset" value="Reset">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="change-page">
+                        <div class="change-button">
+                            <button id="change-login">Log In</button>
+                            <button id="change-signin">Sign In</button>
+                        </div>
+                    </div>
+
+                    <div class="login-box">
+                        <form action="">
+                            <h2>Log In</h2>
+                            <div class="input-box">
+                                <span class="icon"><i class="fa-solid fa-envelope"></i></span>
+                                <input type="email" name="" id="email2" required>
+                                <label for="">E-mail</label>
+                            </div>
+                            <div class="input-box">
+                                <span class="icon"><i class="fa-solid fa-lock"></i></span>
+                                <input type="password" name="" id="password2" required>
+                                <label for="">Password</label>
+                            </div>
+
+                            <!-- <div class="remember-forgot">
+                                    <label for=""><input type="checkbox">Remember Me</label>
+                                    <a href="">Forgot password?</a>
+                                </div> -->
+                            <button type="submit" id="button2">Login</button>
+                            <div class="register-link">
+                                <p>Don't have a account? <a href="">Register</a></p>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="home-page-definition">
+            <!-- <div class="slider">
+                <img src="/images/tatlıs3.jpg" alt="">
+            </div> -->
+            <div class="promotional-message">
+                <h2>Hoş Geldiniz</h2>
+                <p>Kişisel yönetim panelinizde mesajlaşma, notlar ve yapılacaklar listesi gibi araçları kullanarak
+                    gününüzü düzenleyebilirsiniz.</p>
+            </div>
+        </div>
+        <div class="logged-in-user-profile">
+            <div class="close-button2">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+            <div class="logged-in-user-name">
+                <div class="profile-pp">
+                    <a href=""></a>
+                </div>
+                <div class="pp-name-surname"></div>
+            </div>
+            <div class="logged-user-about">
+                <a href=""><i class="fa-solid fa-users"></i> Arkadaşlarım </a>
+                <a href=""><i class="fa-solid fa-note-sticky"></i>Notlarım</a>
+                <a href=""><i class="fa-solid fa-rectangle-list"></i>Yapılacaklar Listem</a>
+            </div>
+            <div class="logged-user-shortcut">
+            </div>
+        </div>
+        <div class="theme-selection-box">
+            <div class="to-choose-theme">
+                <p>Moduna göre bir tema belirle</p>
+            </div>
+            <div class="theme-icons-div">
+                <div class="theme-icons"><i class="fa-solid fa-face-laugh-beam"></i><img src="/images/gülümse.jpg" alt=""></div>
+                <div class="theme-icons"><i class="fa-solid fa-face-frown-open"></i> <img src="/images/cam.jpg" alt=""></div>
+                <div class="theme-icons"><i class="fa-solid fa-face-frown-open"></i><img src="/images/kuskun.jpg" alt=""></div>
+                <div class="theme-icons"><i class="fa-solid fa-face-rolling-eyes"></i><img src="/images/kuş.jpg" alt=""></div>
+                <div class="theme-icons"><i class="fa-solid fa-face-meh-blank"></i> <img src="/images/yagmur.jpg" alt=""></div>
+                <div class="theme-icons"><i class="fa-solid fa-face-meh"></i> <img src="/images/tatlıs3.jpg" alt=""></div>
+                <div class="theme-icons">  <i class="fa-solid fa-face-kiss-wink-heart"></i> <img src="/images/kiss.jpg" alt=""></div>
+                <div class="theme-icons"><i class="fa-solid fa-face-grin-tears"> </i> <img src="/images/joker.jpg" alt=""></div>
+                <div class="theme-icons"><i class="fa-solid fa-face-grin-stars"></i><img src="/images/normal.jpg" alt=""></div>
+                <div class="theme-icons"><i class="fa-solid fa-face-flushed"></i><img src="/images/kuş.jpg" alt=""></div>
+                <div class="theme-icons"><i class="fa-solid fa-face-grimace"></i><img src="/images/kızgın.jpg" alt=""></div>
+            </div>
+
+        </div>
+
+
+    </div>
+    <script src="public/js/index.js"></script>
+    <script src="/public/js/signin.js"></script>
+    <script src="/public/js/login.js"></script>
+  
+    
+ 
+ 
+   
+
+</body>
+
+</html>
